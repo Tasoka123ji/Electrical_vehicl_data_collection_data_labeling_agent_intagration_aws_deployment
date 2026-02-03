@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Vehicle Dataset</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+<h2>Electric Vehicles (Labeled)</h2>
+
+<table id="ev-table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Range</th>
+            <th>Price</th>
+            <th>Range Label</th>
+            <th>Price Label</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script>
+fetch("http://127.0.0.1:8000/vehicles?limit=50")
+    .then(res => res.json())
+    .then(data => {
+        const tbody = document.querySelector("#ev-table tbody");
+        data.forEach(v => {
+            const row = `
+                <tr>
+                    <td>${v["Model Year"]}</td>
+                    <td>${v.Make}</td>
+                    <td>${v.Model}</td>
+                    <td>${v["Electric Range"]}</td>
+                    <td>${v["Base MSRP"]}</td>
+                    <td>${v.range_label}</td>
+                    <td>${v.price_label}</td>
+                </tr>
+            `;
+            tbody.innerHTML += row;
+        });
+    });
+</script>
+
+</body>
+</html>
