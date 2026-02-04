@@ -1,0 +1,122 @@
+---
+license: cc-by-4.0
+task_categories:
+- tabular-classification
+- tabular-regression
+- feature-extraction
+language:
+- en
+tags:
+- cars
+- electric-vehicles
+- ev-database
+- machine-learning
+- tabular
+- automotive
+- '2025'
+- specs
+- transportation
+- dataset
+pretty_name: Electric Vehicle Specs Dataset 2025
+size_categories:
+- n<1K
+---
+# ⚡ Electric Vehicle Specs Dataset 2025
+
+This dataset provides a **comprehensive collection of specifications and performance metrics** for modern electric vehicles (EVs), scraped from [EV-Database.org](https://ev-database.org).
+
+It supports use in:
+- 🔍 Data science
+- 🧠 Machine learning
+- 📈 Market analysis
+- ♻️ Sustainability studies
+- 🚗 EV adoption research
+
+---
+
+## 📊 Core Attributes
+
+Each row represents a specific EV model with attributes across:
+
+### 🏷 Brand & Classification
+- **Brand & Model:** Manufacturer and nameplate
+- **Car Body Type:** Hatchback, SUV, sedan, etc.
+- **Segment:** Compact, midsize, executive, etc.
+
+### 🔋 Battery & Range
+- **Battery Capacity (kWh):** Gross energy capacity
+- **Battery Type & Cell Count**
+- **Efficiency (Wh/km):** Power usage
+- **Range (km):** Estimated full-charge range
+
+### ⚡ Charging Specs
+- **Fast Charging Power (kW)**
+- **Port Type:** CCS, CHAdeMO, etc.
+
+### 🚀 Performance
+- **Top Speed (km/h)**
+- **0–100 km/h Acceleration (s)**
+- **Torque (Nm)**
+
+### 🧳 Practical Specs
+- **Towing Capacity (kg)**
+- **Cargo Volume (L)**
+- **Seats**
+
+### 📐 Dimensions
+- **Length, Width, Height (mm)**
+
+### ⚙️ Technical Info
+- **Drivetrain:** AWD, RWD, FWD
+- **Source URL** for reference (scraping origin)
+
+---
+
+## 🧼 Data Quality & Cleaning Notes
+
+- All numeric fields cleaned and converted to proper formats (`int`, `float`)
+- Some missing values in technical specs (like towing capacity, battery cell count)
+
+---
+
+## 💡 Use Cases
+
+- EV trend analysis & visualization
+- Vehicle comparison dashboards
+- Feature engineering for ML models
+- Price/power prediction tasks
+- Clean energy and EV adoption research
+
+---
+
+## 📄 Source
+
+- Scraped from: [https://ev-database.org](https://ev-database.org)
+- Creator: [Urvish Ahir](https://huggingface.co/UrvishAhir1)
+
+---
+
+## 📜 License
+
+Released under **CC BY 4.0** — credit the source when using.
+
+---
+
+## 📊 Also Available on **Kaggle**
+
+[![View on Kaggle](https://img.shields.io/badge/Kaggle-View%20Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025)
+
+👍 If you found this dataset useful or interesting, **please consider dropping an upvote on Kaggle** — it really helps! ⚡
+
+👤 My Kaggle Profile: [Urvish Ahir](https://www.kaggle.com/urvishahir)
+
+---
+
+## 🧪 Quick Usage in Python
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("urvishahir/Electric-Vehicle-Specs-Dataset-2025")
+df = ds["train"].to_pandas()
+df.head()
