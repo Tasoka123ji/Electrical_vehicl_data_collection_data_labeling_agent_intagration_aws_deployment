@@ -23,20 +23,20 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application files
-COPY ev_explorer_improved.py .
+COPY app.py .
 
 # Create data directory
 RUN mkdir -p /app/data
 
 # Expose Streamlit port
-EXPOSE 8501
+EXPOSE 8001
 
 # Health check
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 
 # Run the application
-CMD ["streamlit", "run", "ev_explorer_improved.py", \
-     "--server.port=8501", \
+CMD ["streamlit", "run", "app.py", \
+     "--server.port=8001", \
      "--server.address=0.0.0.0", \
      "--server.headless=true", \
      "--browser.gatherUsageStats=false"]
