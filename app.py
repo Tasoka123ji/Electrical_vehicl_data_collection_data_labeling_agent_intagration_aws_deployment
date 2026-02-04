@@ -77,7 +77,7 @@ def load_data():
     try:
         # Load datasets
         base_df = pd.read_csv(
-            "/home/karen/Desktop/data_collection/data/datasets--UrvishAhir1--Electric-Vehicle-Specs-Dataset-2025/snapshots/0f0663f5365230357a815f23eb815796bce15b64/electric_vehicles_spec_2025.csv"
+            "./data/datasets--UrvishAhir1--Electric-Vehicle-Specs-Dataset-2025/snapshots/0f0663f5365230357a815f23eb815796bce15b64/electric_vehicles_spec_2025.csv"
         )
         gpt_df = pd.read_csv(f"{DATA_DIR}/gpt_ev_prompt_with_responses.csv")
         gemini_df = pd.read_csv(f"{DATA_DIR}/gemini_ev_prompt_with_responses.csv")
