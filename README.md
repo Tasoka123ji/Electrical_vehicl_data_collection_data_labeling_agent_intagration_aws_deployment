@@ -1,19 +1,13 @@
 # 🎯 What's New? Key Improvements
 
 ## Before → After Comparison
-## 🎥 Quick Demo (1–2 min)
+# EV Explorer – AI-Powered Electric Vehicle Data Analysis
 
-Watch how the improved version looks and works:
+**Interactive Streamlit dashboard + AI chat over real & synthetic EV data**
 
-https://www.youtube.com/watch?v=vPxPO8FG3to
-<!-- Alternative 1 – GitHub flavored video (works best when file is in repo) -->
-<video src="https://github.com/yourusername/ev-explorer/raw/main/Ev_project.mp4" controls autoplay loop muted width="100%" style="max-height:600px; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);"></video>
+[![EV Explorer Demo](https://img.youtube.com/vi/vPxPO8FG3to/hqdefault.jpg)](https://www.youtube.com/watch?v=vPxPO8FG3to)
 
-<!-- Alternative 2 – simpler markdown video embed (most readers support it) -->
-![EV Explorer Demo](https://www.youtube.com/watch?v=vPxPO8FG3to)
-
-<!-- Alternative 3 – if you upload to YouTube/Vimeo later -->
-<!-- [![EV Explorer in action](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://youtu.be/VIDEO_ID) -->
+Watch a quick 1–2 minute demo of the improved version ↑
 ### 1. Data Display 📊
 
 **Before:**
