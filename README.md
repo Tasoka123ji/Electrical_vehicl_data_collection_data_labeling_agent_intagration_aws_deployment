@@ -1,13 +1,20 @@
 # 🎯 What's New? Key Improvements
 
 ## Before → After Comparison
-# EV Explorer – AI-Powered Electric Vehicle Data Analysis
+## 🎥 Demo Video
 
-**Interactive Streamlit dashboard + AI chat over real & synthetic EV data**
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vPxPO8FG3to">
+    <img src="https://img.youtube.com/vi/vPxPO8FG3to/maxresdefault.jpg"
+         alt="EV Explorer Demo"
+         width="720"/>
+  </a>
+</p>
 
-[![EV Explorer Demo](https://img.youtube.com/vi/vPxPO8FG3to/hqdefault.jpg)](https://www.youtube.com/watch?v=vPxPO8FG3to)
+<p align="center">
+  👉 Click to watch a 1–2 minute demo of the interactive dashboard
+</p>
 
-Watch a quick 1–2 minute demo of the improved version ↑
 ### 1. Data Display 📊
 
 **Before:**
