@@ -5,12 +5,12 @@
 
 Watch how the improved version looks and works:
 
-https://github.com/Tasoka123ji/Electrical_vehicl_data_collection_data_labeling_agent_intagration_aws_deployment/blob/version4/Ev_project.mp4
+https://www.youtube.com/watch?v=vPxPO8FG3to
 <!-- Alternative 1 – GitHub flavored video (works best when file is in repo) -->
 <video src="https://github.com/yourusername/ev-explorer/raw/main/Ev_project.mp4" controls autoplay loop muted width="100%" style="max-height:600px; border-radius:12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);"></video>
 
 <!-- Alternative 2 – simpler markdown video embed (most readers support it) -->
-![EV Explorer Demo](https://github.com/Tasoka123ji/Electrical_vehicl_data_collection_data_labeling_agent_intagration_aws_deployment/blob/version4/Ev_project.mp4)
+![EV Explorer Demo](https://www.youtube.com/watch?v=vPxPO8FG3to)
 
 <!-- Alternative 3 – if you upload to YouTube/Vimeo later -->
 <!-- [![EV Explorer in action](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://youtu.be/VIDEO_ID) -->
