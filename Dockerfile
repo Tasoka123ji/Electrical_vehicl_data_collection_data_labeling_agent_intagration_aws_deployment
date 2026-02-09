@@ -18,7 +18,8 @@ RUN apt-get update && apt-get install -y \
 
 # Copy requirements first for better caching
 COPY requirements.txt .
-
+COPY data/ /app/data
+COPY electric_vehicles_spec_2025.csv .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
