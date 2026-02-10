@@ -1,6 +1,19 @@
 # 🎯 What's New? Key Improvements
 
 ## Before → After Comparison
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vPxPO8FG3to">
+    <img src="https://img.youtube.com/vi/vPxPO8FG3to/maxresdefault.jpg"
+         alt="EV Explorer Demo"
+         width="720"/>
+  </a>
+</p>
+
+<p align="center">
+  👉 Click to watch a 1–2 minute demo of the interactive dashboard
+</p>
 
 ### 1. Data Display 📊
 
